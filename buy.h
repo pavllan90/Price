@@ -35,9 +35,10 @@ public:
     int getPrice();
     void setDate(Date _date);
     void setTime(Time _time);
-    void setPrice(int price);
-    void show();
-private:
+    void setPrice(int _price);
+    virtual void show();
+    virtual int getType();
+protected:
     Time time;
     Date date;
     int price;

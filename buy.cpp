@@ -28,6 +28,11 @@ Buy::Buy(const Buy &a) : date(a.date), time(a.time), price(a.price) { }
 
 Buy::~Buy() { }
 
+void Buy::setPrice(int _price)
+{
+    price = _price>0 ? _price : price;
+}
+
 Date Buy::getDate()
 {
     return date;
@@ -55,6 +60,11 @@ void Buy::setTime(Time _time)
     time.hours = _time.hours>=0 && _time.hours<24 ? _time.hours : time.hours;
     time.minutes = _time.minutes>=0 && _time.hours<60 ? _time.minutes : time.minutes;
     time.seconds = _time.seconds>=0 && _time.seconds<60 ? _time.seconds : time.seconds;
+}
+
+int Buy::getType()
+{
+    return 0;
 }
 
 void Buy::show()

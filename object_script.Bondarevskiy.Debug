@@ -1,0 +1,16 @@
+INPUT(
+./debug\main.o
+./debug\buy.o
+./debug\queue.o
+./debug\donation.o
+./debug\mainwindow.o
+./debug\showdialog.o
+./debug\labeldialog.o
+./debug\chagedialog.o
+./debug\countdialog.o
+./debug\moc_mainwindow.o
+./debug\moc_showdialog.o
+./debug\moc_labeldialog.o
+./debug\moc_chagedialog.o
+./debug\moc_countdialog.o
+);

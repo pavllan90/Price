@@ -1,0 +1,16 @@
+INPUT(
+./release\main.o
+./release\buy.o
+./release\queue.o
+./release\donation.o
+./release\mainwindow.o
+./release\showdialog.o
+./release\labeldialog.o
+./release\chagedialog.o
+./release\countdialog.o
+./release\moc_mainwindow.o
+./release\moc_showdialog.o
+./release\moc_labeldialog.o
+./release\moc_chagedialog.o
+./release\moc_countdialog.o
+);
